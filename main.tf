@@ -55,7 +55,7 @@ module "WindowsVM" {
   source      = "./WindowsVM"
   VM_RG_Name  = module.ResourceGroup.RG_Name_Out
   VM_Location = module.ResourceGroup.RG_Location_Out
-  VM_Name     = "DC01"
+  VM_Name     = "DC0001"
   subnetid    = module.VNET.Subnet1_ID
 
 }
